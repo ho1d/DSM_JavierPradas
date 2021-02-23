@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #wrapper {
+            min-height: 100%;
+        }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid h-100" id="wrapper">
+        <div class="row h-100">
+            <aside class="col-2 px-0 h-100 fixed-top" id="left">
+
+                <div class="col h-100" style="background-color:#1b262c";>
+                    <div class="container d-flex justify-content-center pt-5 text-center font-weight-bold" style="color: #bbe1fa;">
+   
+                            <h3>
+                              <p class="text font-italic text-center"  style="color: #bbe1fa;">Página de administración</p>
+                            </h3>
+
+                    </div>
+                    <div class="container d-flex justify-content-center">
+
+                        <img src="imgs/fideos.png" class="img-fluid py-3 pb-3">
+
+                    </div>
+                    <div class="row py-2 justify-content-center">
+                        <div class="col-10 ">
+                            <div class="list-group">
+                                <button type="button" class="list-group-item list-group-item-action active">
+                                    Inicio
+                                </button>
+                                <button type="button" class="list-group-item list-group-item-action">Administrar
+                                    stock</button>
+                                <button type="button" class="list-group-item list-group-item-action">Administrar
+                                    contenido</button>
+                                <button type="button" class="list-group-item list-group-item-action">Administrar
+                                    capturas</button>
+                                <button type="button" class="list-group-item list-group-item-action">Administrar
+                                    estadísticas</button>
+                                <button type="button" class="list-group-item list-group-item-action">Administrar
+                                    publicidad</button>
+                                <button type="button" class="list-group-item list-group-item-action"
+                                    disabled>Próximamente</button>
+                            </div>
+                        </div>
+
+
+                        <div class="footer py-5">
+                            <div class="col p-10"  style="color: #bbe1fa;"">
+                                <p>
+                                    Universidad Pública de Navarra;
+                                    <script>document.write(new Date().getFullYear());</script>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+            </aside>
+            <main class="col-10 invisible">
+                <!--hidden spacer-->
+            </main>
+            <main class="col offset-2 h-100">
+                <div class="row h-100" style="background-color: rgb(202, 223, 240);">
+                    <div class="p-4">
+                        <div class="col-12 ">
+                            <div class="d-flex">
+                                <p class="font-weight-bold">Estadísticas principales</p>
+
+                            </div>
+                            <div class="d-flex">
+
+                                <p>Click para ver su contenido</p>
+                            </div>
+
+                            <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover"
+                                data-placement="top" data-content="160 visitas en el último mes.">
+                                Visitas
+                            </button>
+                            <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover"
+                                data-placement="top" data-content="112 visitantes en el último mes.">
+                                Visitantes
+                            </button>
+                            <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover"
+                                data-placement="top" data-content="67 likes en el último mes.">
+                                Likes
+                            </button>
+                            <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover"
+                                data-placement="top" data-content="No hay comentarios en el último mes.">
+                                Comentarios
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="ml-auto p-2">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Despliegue de servicios multimedia</a></li>
+                                <li class="breadcrumb-item"><a href="#">Primera entrega</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Página de administración</li>
+                            </ol>
+                        </nav>
+                    </div>
+
+
+                    <div class="col-6 py-2 ">
+                        Faltan 24 visitas para llegar al objetivo mensual.
+                        <div class="progress">
+                            <div class="progress-bar bg-info progress-bar-striped" style="width:80%"> 80% </div>
+                        </div>
+                    </div>
+                    <div class="col-8 pl-2 ">
+                        <div class="d-flex py-3">
+                            <p class="font-weight-bold">Estado de las reseñas:</p>
+                        </div>
+                        <div class="col-12 pl-2 ">
+
+                            <table class="table table-bordered table-dark">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Juegos </th>
+                                        <th scope="col">Reseña</th>
+                                        <th scope="col">Fecha reseña</th>
+                                        <th scope="col">Autor</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Hollow Knight</th>
+                                        <td>Realizada</td>
+                                        <td>19/02/2021</td>
+                                        <td>Javier Pradas</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Katana Zero</th>
+                                        <td>Pendiente</td>
+                                        <td>Estimada: 22/02/2021</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">INMOST</th>
+                                        <td>Pendiente</td>
+                                        <td>Estimada: 25/02/2021</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Dead Cells</th>
+                                        <td>Pendiente</td>
+                                        <td>Estimada: 28/02/2021</td>
+                                        <td>-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <div class="col-6 py-2 ">
+                        <p class="font-weight-bold">Añadir juegos a pendientes (pulsar botón):</p>
+
+                    </div>
+                    <div class="row pl-2 pr-2">
+                        <div class="col-md-3 justify-content-center">
+                            <img src="imgs/ghost.jpg" class="img-fluid" alt="Responsive image">
+                            <div class="d-flex justify-content-center py-2 ">
+                                <button type="button " class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    Añadir a pendientes
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-3  ">
+
+                            <img src="imgs/kz.jpeg" class="img-fluid" alt="Responsive image">
+                            <div class="d-flex justify-content-center py-2 ">
+                                <button type="button " class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    Añadir a pendientes
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 ">
+
+                            <img src="imgs/dc.jpg" class="img-fluid" alt="Responsive image">
+                            <div class="d-flex justify-content-center py-2 ">
+                                <button type="button " class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    Añadir a pendientes
+                                </button>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+
+                            <img src="imgs/gow.jpg" class="img-fluid" alt="Responsive image">
+                            <div class="d-flex justify-content-center py-2 ">
+                                <button type="button " class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModal">
+                                    Añadir a pendientes
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated pb-5" role="progressbar"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">¿Añadir a la lista de pendientes?
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    El juego se añadirá a la tabla y quedará marcado como tarea pendiente
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-primary">Añadir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </main>
+    </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
+
+</html>
