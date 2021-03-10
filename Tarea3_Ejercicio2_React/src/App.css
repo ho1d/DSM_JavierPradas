@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.Longitud{
+  height: 64px;
+}
+
+.Contenedor{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.Recuadro{
+  float: left;
+  height: 32px;
+  width: 32px;
+  padding: 16px;
+  
+}
