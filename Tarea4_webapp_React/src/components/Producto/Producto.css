@@ -1,0 +1,33 @@
+.Producto {
+    max-width: 15%;
+    margin: auto;
+}
+
+
+.CardProducto {
+    margin: 10px;
+    padding: 10px;
+}
+
+.CardTitulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #303841
+}
+
+.CardTexto {
+    text-align: center;
+    font-size: 18px;
+    color: #303841
+}
+
+.CardBoton {
+    text-align: center;
+
+}
+
+.CardBoton Button {
+    font-weight: bold;
+    
+}

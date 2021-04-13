@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+.Cabecera {
+    width: 100%;
+    font-family: 'Squada One';font-size: 22px;
+}
+.Body {
+    margin: auto;
+    color: #f6c90e;
+    font-family: 'Squada One';font-size: 22px;
+    background-color: #2e4750;
+}
+
+.Footer {
+    margin: auto;
+    padding-top: 10px;
+    height: 80px;
+    text-align: center;
+    background-color: #f7f7f7;
+    font-family: 'Squada One';font-size: 18px;
+    
+}

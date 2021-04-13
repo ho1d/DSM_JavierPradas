@@ -1,0 +1,25 @@
+
+.CabeceraBoton {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.CabeceraBoton Button{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #f6c90e;
+    width: 200px;
+    color: #28353f;
+}
+.CabeceraImagen {
+    margin: 0 auto;
+    background-color: #28353f;
+}
+.TextoCabecera{
+    color: #f6c90e;
+    background-color:  #28353f;
+    text-align: center;
+    padding-bottom: 20px;
+}

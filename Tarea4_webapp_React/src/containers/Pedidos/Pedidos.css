@@ -1,0 +1,17 @@
+.PedidosLista{
+    width: 80%;
+    margin: auto;
+}
+
+.PedidosTexto{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.BotonPedidos {
+    margin: 20px auto;
+    text-align: center; 
+    padding-bottom: 20px;
+}

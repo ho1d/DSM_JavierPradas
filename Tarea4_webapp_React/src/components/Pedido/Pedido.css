@@ -1,0 +1,59 @@
+.Pedido {
+    padding-top: 10px;
+    border: 3px solid #f6c90e;
+    margin-bottom: 10px;
+}
+
+
+.PedidoDatos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.PedidoCarrito {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.PedidoDetalles {
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+.DetallesTitulo {
+    padding-bottom: 10px;
+    padding-left: 40px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.DetallesTexto {
+    margin-left: 40px;
+}
+
+
+.BotonBorrar {
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+.CardProductoCarrito {
+    max-width: 150px;
+    max-height: 300px;;
+    margin: 10px;
+    padding: 10px;
+}
+
+.CardTitulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #303841
+}
+
+.CardTexto {
+    text-align: center;
+    font-size: 18px;
+    color: #303841
+}
